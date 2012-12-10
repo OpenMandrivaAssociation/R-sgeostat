@@ -9,9 +9,8 @@ Group:            Sciences/Mathematics
 License:          file LICENSE
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/%{packname}_1.0-24.tar.gz
-Requires:         R-stats R-grDevices R-graphics
-BuildRequires:    R-devel Rmath-devel texlive-collection-latex
-BuildRequires:    R-stats R-grDevices R-graphics
+Requires:         R-stats R-grDevices R-graphics 
+BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-stats R-grDevices R-graphics
 
 %description
 An Object-oriented Framework for Geostatistical Modeling in S+
@@ -42,3 +41,11 @@ rm -f %{buildroot}%{rlibdir}/R.css
 %{rlibdir}/%{packname}/data
 %{rlibdir}/%{packname}/help
 %{rlibdir}/%{packname}/libs
+
+
+%changelog
+* Fri Feb 17 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.0_24-1
++ Revision: 776272
+- Import R-sgeostat
+- Import R-sgeostat
+
