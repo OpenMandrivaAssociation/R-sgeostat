@@ -2,13 +2,13 @@
 %global rlibdir  %{_libdir}/R/library
 
 Name:             R-%{packname}
-Version:          1.0_24
+Version:          1.0.25
 Release:          1
 Summary:          An Object-oriented Framework for Geostatistical Modeling in S+
 Group:            Sciences/Mathematics
 License:          file LICENSE
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/%{packname}_1.0-24.tar.gz
+Source0:          http://cran.r-project.org/src/contrib/sgeostat_1.0-25.tar.gz
 Requires:         R-stats R-grDevices R-graphics 
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-stats R-grDevices R-graphics
 
@@ -48,4 +48,5 @@ rm -f %{buildroot}%{rlibdir}/R.css
 + Revision: 776272
 - Import R-sgeostat
 - Import R-sgeostat
+
 

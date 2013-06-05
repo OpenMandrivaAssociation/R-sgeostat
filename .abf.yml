@@ -1,2 +1,4 @@
+removed_sources:
+  sgeostat_1.0-24.tar.gz: cae9fae265b111dd8cada1303ef8e59ff33791ef
 sources:
-  "sgeostat_1.0-24.tar.gz": cae9fae265b111dd8cada1303ef8e59ff33791ef
+  sgeostat_1.0-25.tar.gz: f8e614ddcaf7cd1e26009640f1a4bb5280d84519
