@@ -3,7 +3,7 @@
 
 Name:             R-%{packname}
 Version:          1.0.25
-Release:          2
+Release:          3
 Summary:          An Object-oriented Framework for Geostatistical Modeling in S+
 Group:            Sciences/Mathematics
 License:          file LICENSE
