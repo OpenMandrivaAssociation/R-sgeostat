@@ -7,7 +7,7 @@ Release:          3
 Summary:          An Object-oriented Framework for Geostatistical Modeling in S+
 Group:            Sciences/Mathematics
 License:          file LICENSE
-URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
+URL:              https://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/sgeostat_1.0-25.tar.gz
 Requires:         R-stats R-grDevices R-graphics 
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-stats R-grDevices R-graphics
